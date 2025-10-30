@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video & Thumbnail Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 YouTube Video & Thumbnail Downloader</h1>
+    <p>Paste your YouTube or Shorts link below to download video or thumbnail.</p>
+  </header>
+
+  <main>
+    <div class="input-box">
+      <input type="text" id="videoUrl" placeholder="Enter YouTube video URL">
+      <button onclick="fetchData()">Get Download Links</button>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <h2 class="section-title">Popular Thumbnails</h2>
+    <div class="thumbnails">
+      <div class="thumb">
+        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Video 1">
+        <a href="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" download>Download Thumbnail</a>
+      </div>
+      <div class="thumb">
+        <img src="https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg" alt="Video 2">
+        <a href="https://img.youtube.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg" download>Download Thumbnail</a>
+      </div>
+      <div class="thumb">
+        <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Video 3">
+        <a href="https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg" download>Download Thumbnail</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 CricketVS Tools | Built by Vishal Jaat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

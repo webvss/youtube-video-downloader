@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #f44336;
+  color: white;
+  padding: 25px 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.input-box {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input-box input {
+  width: 320px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input-box button {
+  padding: 12px 18px;
+  background: #f44336;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.input-box button:hover {
+  background: #d32f2f;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.result img {
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.download-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.download-buttons a {
+  text-decoration: none;
+  background: #f44336;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.download-buttons a:hover {
+  background: #d32f2f;
+}
+
+.section-title {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #f44336;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.thumb {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.thumb img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thumb a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.thumb a:hover {
+  background: #d32f2f;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 15px;
+  color: #555;
+  font-size: 14px;
+  margin-top: 50px;
+}
