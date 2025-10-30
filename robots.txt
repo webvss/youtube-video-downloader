@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://webvss.github.io/youtube-video-downloader/sitemap.xml
