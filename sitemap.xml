@@ -9,26 +9,4 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Example inner pages (add your own if available) -->
-  <url>
-    <loc>https://webvss.github.io/youtube-video-downloader/about.html</loc>
-    <lastmod>2025-10-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://webvss.github.io/youtube-video-downloader/contact.html</loc>
-    <lastmod>2025-10-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://webvss.github.io/youtube-video-downloader/privacy-policy.html</loc>
-    <lastmod>2025-10-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
 </urlset>
